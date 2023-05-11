@@ -1,5 +1,61 @@
-*{
+
+body{
+    background-color: var(--primary-color);
+}
+
+* {
     font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
+    list-style: none;
+    text-decoration: none;
 }
+
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --tarnary-color: #C7C7C7;
+}
+
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*-------------------
+header css start here
+--------------------*/
+header{
+    padding: 25px 0;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.menu{
+    gap: 40px !important;
+
+}.header__container a{
+    color: var(--tarnary-color);
+    font-size: 20px;
+    line-height: 21px;
+    text-transform: capitalize;
+}
+.header__container .social a{
+    color: var(--secondary-color);
+    padding: 0 15px;
+}
+/*-------------------
+header css end here
+--------------------*/
