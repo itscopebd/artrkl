@@ -1,5 +1,4 @@
-
-body{
+body {
     background-color: var(--primary-color);
 }
 
@@ -17,45 +16,92 @@ body{
     --tarnary-color: #C7C7C7;
 }
 
-
-
-
 .container {
     width: 90%;
     margin: 0 auto;
 }
 
+.section__title {
+    color: var(--secondary-color);
+    font-size: 48px;
+    line-height: 44px;
+}
+
+.description {
+    font-size: 39px;
+    color: var(--tarnary-color);
+    line-height: 58.5px
+}
+
 /*-------------------
 header css start here
 --------------------*/
-header{
+header {
     padding: 25px 0;
 }
+
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header__container ul{
+.header__container ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 15px;
 }
-.menu{
+
+.menu {
     gap: 40px !important;
 
-}.header__container a{
+}
+
+.header__container a {
     color: var(--tarnary-color);
     font-size: 20px;
     line-height: 21px;
     text-transform: capitalize;
 }
-.header__container .social a{
+
+.header__container .social a {
     color: var(--secondary-color);
     padding: 0 15px;
 }
+
+.header__image__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
 /*-------------------
 header css end here
 --------------------*/
+
+/*-----------------------------
+featured section css start here
+--------------------------------*/
+#featured {
+    background: url("../img/featured-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 850px;
+    display: flex;
+    align-items: end;
+
+}
+
+#featured .content {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*-----------------------------
+featured section css end here
+--------------------------------*/
